@@ -122,6 +122,21 @@ Veja um exemplo:'''
 pessoa = {"nome": "João", "idade": 25, "altura": 1.75}
 print(pessoa["nome"]) # imprime "João"
 
+# Exemplo de dicionário dentro de um dicionário
+pessoa1 = {
+    'nome': 'João',
+    'idade': 30,
+    'endereço': {
+        'rua': 'Rua A',
+        'cidade': 'São Paulo',
+        'estado': 'SP',
+        'CEP': '01234-567',
+    }
+}
+# Acessando valores em dicionários aninhados
+print(pessoa1['nome']) # imprime 'João'
+print(pessoa1['endereço']['cidade']) # imprime 'São Paulo'
+
 # Adicionando um novo par chave-valor
 pessoa["sexo"] = "masculino"
 print(pessoa) # imprime {"nome": "João", "idade": 25, "altura": 1.75, "sexo": "masculino"}

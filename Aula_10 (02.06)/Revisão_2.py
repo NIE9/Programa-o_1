@@ -7,12 +7,16 @@ for j in range(len(lista)):
 media = soma / len(lista)
 listaMaior = []
 listaMenor = []
-if lista >
+for k in range(len(lista)):
+    if lista[k] >= media:
+        listaMaior.append(lista[k])
+    else:
+        listaMenor.append(lista[k])
+print(f" Soma dos valores: {soma} \n Média dos valore{media} \n Valores maiores que a média: {listaMaior} \n Valores menores que a média: {listaMenor}")
 
-
-'''for j in range(0, 5):
-    soma = soma + lista[j]'''
-'''for j in lista:
-       print(j  )'''
-print(soma)
-print(media)
+'''
+for j in range(0, 5):
+    soma = soma + lista[j]
+    
+for j in lista:
+   print(j)'''

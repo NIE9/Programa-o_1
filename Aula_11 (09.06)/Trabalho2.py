@@ -432,148 +432,146 @@ def verificarX(l1, l2, l3, l4, l5, l6):
         return vitoriaX
 
 def verificarO(l1, l2, l3, l4, l5, l6):
-    "Kleber. Alterar todos os 'vitoriaX' por 'vitoriaO' e trocar o 'X' por 'O' em o codigo"
     vitoriaO = "Vitória do jogador 2!"
-    if l1[0:4].count("X") == 4:
-        return vitoriaX
-    elif l1[1:5].count("X") == 4:
-        return vitoriaX
-    elif l1[2:6].count("X") == 4:
-        return vitoriaX
-    elif l1[3:7].count("X") == 4:
-        return vitoriaX
-    elif l2[0:4].count("X") == 4:
-        return vitoriaX
-    elif l2[1:5].count("X") == 4:
-        return vitoriaX
-    elif l2[2:6].count("X") == 4:
-        return vitoriaX
-    elif l2[3:7].count("X") == 4:
-        return vitoriaX
-    elif l3[0:4].count("X") == 4:
-        return vitoriaX
-    elif l3[1:5].count("X") == 4:
-        return vitoriaX
-    elif l3[2:6].count("X") == 4:
-        return vitoriaX
-    elif l3[3:7].count("X") == 4:
-        return vitoriaX
-    elif l4[0:4].count("X") == 4:
-        return vitoriaX
-    elif l4[1:5].count("X") == 4:
-        return vitoriaX
-    elif l4[2:6].count("X") == 4:
-        return vitoriaX
-    elif l4[3:7].count("X") == 4:
-        return vitoriaX
-    elif l5[0:4].count("X") == 4:
-        return vitoriaX
-    elif l5[1:5].count("X") == 4:
-        return vitoriaX
-    elif l5[2:6].count("X") == 4:
-        return vitoriaX
-    elif l5[3:7].count("X") == 4:
-        return vitoriaX
-    elif l6[0:4].count("X") == 4:
-        return vitoriaX
-    elif l6[1:5].count("X") == 4:
-        return vitoriaX
-    elif l6[2:6].count("X") == 4:
-        return vitoriaX
-    elif l6[3:7].count("X") == 4:
-        return vitoriaX
-    elif l1[0] == 'X' and l2[0] == 'X' and l3[0] == 'X' and l4[0] == 'X':
-        return vitoriaX
-    elif l2[0] == 'X' and l3[0] == 'X' and l4[0] == 'X' and l5[0] == 'X':
-        return vitoriaX
-    elif l3[0] == 'X' and l4[0] == 'X' and l5[0] == 'X' and l6[0] == 'X':
-        return vitoriaX
-    elif l1[1] == 'X' and l2[1] == 'X' and l3[1] == 'X' and l4[1] == 'X':
-        return vitoriaX
-    elif l2[1] == 'X' and l3[1] == 'X' and l4[1] == 'X' and l5[1] == 'X':
-        return vitoriaX
-    elif l3[1] == 'X' and l4[1] == 'X' and l5[1] == 'X' and l6[1] == 'X':
-        return vitoriaX
-    elif l1[2] == 'X' and l2[2] == 'X' and l3[2] == 'X' and l4[2] == 'X':
-        return vitoriaX
-    elif l2[2] == 'X' and l3[2] == 'X' and l4[2] == 'X' and l5[2] == 'X':
-        return vitoriaX
-    elif l3[2] == 'X' and l4[2] == 'X' and l5[2] == 'X' and l6[2] == 'X':
-        return vitoriaX
-    elif l1[3] == 'X' and l2[3] == 'X' and l3[3] == 'X' and l4[3] == 'X':
-        return vitoriaX
-    elif l2[3] == 'X' and l3[3] == 'X' and l4[3] == 'X' and l5[3] == 'X':
-        return vitoriaX
-    elif l3[3] == 'X' and l4[3] == 'X' and l5[3] == 'X' and l6[3] == 'X':
-        return vitoriaX
-    elif l1[4] == 'X' and l2[4] == 'X' and l3[4] == 'X' and l4[4] == 'X':
-        return vitoriaX
-    elif l2[4] == 'X' and l3[4] == 'X' and l4[4] == 'X' and l5[4] == 'X':
-        return vitoriaX
-    elif l3[4] == 'X' and l4[4] == 'X' and l5[4] == 'X' and l6[4] == 'X':
-        return vitoriaX
-    elif l1[5] == 'X' and l2[5] == 'X' and l3[5] == 'X' and l4[5] == 'X':
-        return vitoriaX
-    elif l2[5] == 'X' and l3[5] == 'X' and l4[5] == 'X' and l5[5] == 'X':
-        return vitoriaX
-    elif l3[5] == 'X' and l4[5] == 'X' and l5[5] == 'X' and l6[5] == 'X':
-        return vitoriaX
-    elif l1[6] == 'X' and l2[6] == 'X' and l3[6] == 'X' and l4[6] == 'X':
-        return vitoriaX
-    elif l2[6] == 'X' and l3[6] == 'X' and l4[6] == 'X' and l5[6] == 'X':
-        return vitoriaX
-    elif l3[6] == 'X' and l4[6] == 'X' and l5[6] == 'X' and l6[6] == 'X':
-        return vitoriaX
+    if l1[0:4].count("O") == 4:
+        return vitoriaO
+    elif l1[1:5].count("O") == 4:
+        return vitoriaO
+    elif l1[2:6].count("O") == 4:
+        return vitoriaO
+    elif l1[3:7].count("O") == 4:
+        return vitoriaO
+    elif l2[0:4].count("O") == 4:
+        return vitoriaO
+    elif l2[1:5].count("O") == 4:
+        return vitoriaO
+    elif l2[2:6].count("O") == 4:
+        return vitoriaO
+    elif l2[3:7].count("O") == 4:
+        return vitoriaO
+    elif l3[0:4].count("O") == 4:
+        return vitoriaO
+    elif l3[1:5].count("O") == 4:
+        return vitoriaO
+    elif l3[2:6].count("O") == 4:
+        return vitoriaO
+    elif l3[3:7].count("O") == 4:
+        return vitoriaO
+    elif l4[0:4].count("O") == 4:
+        return vitoriaO
+    elif l4[1:5].count("O") == 4:
+        return vitoriaO
+    elif l4[2:6].count("O") == 4:
+        return vitoriaO
+    elif l4[3:7].count("O") == 4:
+        return vitoriaO
+    elif l5[0:4].count("O") == 4:
+        return vitoriaO
+    elif l5[1:5].count("O") == 4:
+        return vitoriaO
+    elif l5[2:6].count("O") == 4:
+        return vitoriaO
+    elif l5[3:7].count("O") == 4:
+        return vitoriaO
+    elif l6[0:4].count("O") == 4:
+        return vitoriaO
+    elif l6[1:5].count("O") == 4:
+        return vitoriaO
+    elif l6[2:6].count("O") == 4:
+        return vitoriaO
+    elif l6[3:7].count("O") == 4:
+        return vitoriaO
+    elif l1[0] == 'O' and l2[0] == 'O' and l3[0] == 'O' and l4[0] == 'O':
+        return vitoriaO
+    elif l2[0] == 'O' and l3[0] == 'O' and l4[0] == 'O' and l5[0] == 'O':
+        return vitoriaO
+    elif l3[0] == 'O' and l4[0] == 'O' and l5[0] == 'O' and l6[0] == 'O':
+        return vitoriaO
+    elif l1[1] == 'O' and l2[1] == 'O' and l3[1] == 'O' and l4[1] == 'O':
+        return vitoriaO
+    elif l2[1] == 'O' and l3[1] == 'O' and l4[1] == 'O' and l5[1] == 'O':
+        return vitoriaO
+    elif l3[1] == 'O' and l4[1] == 'O' and l5[1] == 'O' and l6[1] == 'O':
+        return vitoriaO
+    elif l1[2] == 'O' and l2[2] == 'O' and l3[2] == 'O' and l4[2] == 'O':
+        return vitoriaO
+    elif l2[2] == 'O' and l3[2] == 'O' and l4[2] == 'O' and l5[2] == 'O':
+        return vitoriaO
+    elif l3[2] == 'O' and l4[2] == 'O' and l5[2] == 'O' and l6[2] == 'O':
+        return vitoriaO
+    elif l1[3] == 'O' and l2[3] == 'O' and l3[3] == 'O' and l4[3] == 'O':
+        return vitoriaO
+    elif l2[3] == 'O' and l3[3] == 'O' and l4[3] == 'O' and l5[3] == 'O':
+        return vitoriaO
+    elif l3[3] == 'O' and l4[3] == 'O' and l5[3] == 'O' and l6[3] == '0':
+        return vitoriaO
+    elif l1[4] == 'O' and l2[4] == 'O' and l3[4] == 'O' and l4[4] == 'O':
+        return vitoriaO
+    elif l2[4] == 'O' and l3[4] == 'O' and l4[4] == 'O' and l5[4] == 'O':
+        return vitoriaO
+    elif l3[4] == 'O' and l4[4] == 'O' and l5[4] == 'O' and l6[4] == 'O':
+        return vitoriaO
+    elif l1[5] == 'O' and l2[5] == 'O' and l3[5] == 'O' and l4[5] == 'O':
+        return vitoriaO
+    elif l2[5] == 'O' and l3[5] == 'O' and l4[5] == 'O' and l5[5] == 'O':
+        return vitoriaO
+    elif l3[5] == 'O' and l4[5] == 'O' and l5[5] == 'O' and l6[5] == 'O':
+        return vitoriaO
+    elif l1[6] == 'O' and l2[6] == 'O' and l3[6] == 'O' and l4[6] == 'O':
+        return vitoriaO
+    elif l2[6] == 'O' and l3[6] == 'O' and l4[6] == 'O' and l5[6] == 'O':
+        return vitoriaO
+    elif l3[6] == 'O' and l4[6] == 'O' and l5[6] == 'O' and l6[6] == 'O':
+        return vitoriaO
 
-    elif l1[0] == 'X' and l2[1] == 'X' and l3[2] == 'X' and l4[3] == 'X':
-        return vitoriaX
-    elif l1[1] == 'X' and l2[2] == 'X' and l3[3] == 'X' and l4[4] == 'X':
-        return vitoriaX
-    elif l1[2] == 'X' and l2[3] == 'X' and l3[4] == 'X' and l4[5] == 'X':
-        return vitoriaX
-    elif l1[3] == 'X' and l2[4] == 'X' and l3[5] == 'X' and l4[6] == 'X':
-        return vitoriaX
-    elif l2[0] == 'X' and l3[1] == 'X' and l4[2] == 'X' and l5[3] == 'X':
-        return vitoriaX
-    elif l2[1] == 'X' and l3[2] == 'X' and l4[3] == 'X' and l5[4] == 'X':
-        return vitoriaX
-    elif l2[2] == 'X' and l3[3] == 'X' and l4[4] == 'X' and l5[5] == 'X':
-        return vitoriaX
-    elif l2[3] == 'X' and l3[4] == 'X' and l4[5] == 'X' and l5[6] == 'X':
-        return vitoriaX
-    elif l3[0] == 'X' and l4[1] == 'X' and l5[2] == 'X' and l6[3] == 'X':
-        return vitoriaX
-    elif l3[1] == 'X' and l4[2] == 'X' and l5[3] == 'X' and l6[4] == 'X':
-        return vitoriaX
-    elif l3[2] == 'X' and l4[3] == 'X' and l5[4] == 'X' and l6[5] == 'X':
-        return vitoriaX
-    elif l3[3] == 'X' and l4[4] == 'X' and l5[5] == 'X' and l6[6] == 'X':
-        return vitoriaX
-    elif l6[0] == 'X' and l5[1] == 'X' and l4[2] == 'X' and l3[3] == 'X':
-        return vitoriaX
-    elif l6[1] == 'X' and l5[2] == 'X' and l4[3] == 'X' and l3[4] == 'X':
-        return vitoriaX
-    elif l6[2] == 'X' and l5[3] == 'X' and l4[4] == 'X' and l3[5] == 'X':
-        return vitoriaX
-    elif l6[3] == 'X' and l5[4] == 'X' and l4[5] == 'X' and l3[6] == 'X':
-        return vitoriaX
-    elif l5[0] == 'X' and l4[1] == 'X' and l3[2] == 'X' and l2[3] == 'X':
-        return vitoriaX
-    elif l5[1] == 'X' and l4[2] == 'X' and l3[3] == 'X' and l2[4] == 'X':
-        return vitoriaX
-    elif l5[2] == 'X' and l4[3] == 'X' and l3[4] == 'X' and l2[5] == 'X':
-        return vitoriaX
-    elif l5[3] == 'X' and l4[4] == 'X' and l3[5] == 'X' and l2[6] == 'X':
-        return vitoriaX
-    elif l4[0] == 'X' and l3[1] == 'X' and l2[2] == 'X' and l1[3] == 'X':
-        return vitoriaX
-    elif l4[1] == 'X' and l3[2] == 'X' and l2[3] == 'X' and l1[4] == 'X':
-        return vitoriaX
-    elif l4[2] == 'X' and l3[3] == 'X' and l2[4] == 'X' and l1[5] == 'X':
-        return vitoriaX
-    elif l4[3] == 'X' and l3[4] == 'X' and l2[5] == 'X' and l1[6] == 'X':
-        return vitoriaX
-
+    elif l1[0] == 'O' and l2[1] == 'O' and l3[2] == 'O' and l4[3] == 'O':
+        return vitoriaO
+    elif l1[1] == 'O' and l2[2] == 'O' and l3[3] == 'O' and l4[4] == 'O':
+        return vitoriaO
+    elif l1[2] == 'O' and l2[3] == 'O' and l3[4] == 'O' and l4[5] == 'O':
+        return vitoriaO
+    elif l1[3] == 'O' and l2[4] == 'O' and l3[5] == 'O' and l4[6] == 'O':
+        return vitoriaO
+    elif l2[0] == 'O' and l3[1] == 'O' and l4[2] == 'O' and l5[3] == 'O':
+        return vitoriaO
+    elif l2[1] == 'O' and l3[2] == 'O' and l4[3] == 'O' and l5[4] == 'O':
+        return vitoriaO
+    elif l2[2] == 'O' and l3[3] == 'O' and l4[4] == 'O' and l5[5] == 'O':
+        return vitoriaO
+    elif l2[3] == 'O' and l3[4] == 'O' and l4[5] == 'O' and l5[6] == 'O':
+        return vitoriaO
+    elif l3[0] == 'O' and l4[1] == 'O' and l5[2] == 'O' and l6[3] == 'O':
+        return vitoriaO
+    elif l3[1] == 'O' and l4[2] == 'O' and l5[3] == 'O' and l6[4] == 'O':
+        return vitoriaO
+    elif l3[2] == 'O' and l4[3] == 'O' and l5[4] == 'O' and l6[5] == 'O':
+        return vitoriaO
+    elif l3[3] == 'O' and l4[4] == 'O' and l5[5] == 'O' and l6[6] == 'O':
+        return vitoriaO
+    elif l6[0] == 'O' and l5[1] == 'O' and l4[2] == 'O' and l3[3] == 'O':
+        return vitoriaO
+    elif l6[1] == 'O' and l5[2] == 'O' and l4[3] == 'O' and l3[4] == 'O':
+        return vitoriaO
+    elif l6[2] == 'O' and l5[3] == 'O' and l4[4] == 'O' and l3[5] == 'O':
+        return vitoriaO
+    elif l6[3] == 'O' and l5[4] == 'O' and l4[5] == 'O' and l3[6] == 'O':
+        return vitoriaO
+    elif l5[0] == 'O' and l4[1] == 'O' and l3[2] == 'O' and l2[3] == 'O':
+        return vitoriaO
+    elif l5[1] == 'O' and l4[2] == 'O' and l3[3] == 'O' and l2[4] == 'O':
+        return vitoriaO
+    elif l5[2] == 'O' and l4[3] == 'O' and l3[4] == 'O' and l2[5] == 'O':
+        return vitoriaO
+    elif l5[3] == 'O' and l4[4] == 'O' and l3[5] == 'O' and l2[6] == 'O':
+        return vitoriaO
+    elif l4[0] == 'O' and l3[1] == 'O' and l2[2] == 'O' and l1[3] == 'O':
+        return vitoriaO
+    elif l4[1] == 'O' and l3[2] == 'O' and l2[3] == 'O' and l1[4] == 'O':
+        return vitoriaO
+    elif l4[2] == 'O' and l3[3] == 'O' and l2[4] == 'O' and l1[5] == 'O':
+        return vitoriaO
+    elif l4[3] == 'O' and l3[4] == 'O' and l2[5] == 'O' and l1[6] == 'O':
+        return vitoriaO
 
 linha = ['0', '1', '2', '3', '4', '5', '6']
 l6 = ['_', '_', '_', '_', '_', '_', '_']
@@ -583,23 +581,24 @@ l3 = ['_', '_', '_', '_', '_', '_', '_']
 l2 = ['_', '_', '_', '_', '_', '_', '_']
 l1 = ['_', '_', '_', '_', '_', '_', '_']
 
-escolha = str(input("Dois jogadore? (sim/não): "))
+escolha = str(input("Dois jogadores? (sim/não): "))
 imprime(l1, l2, l3, l4, l5, l6, linha)
 while True:
     entrada1 = int(input("Jogador 1: "))
     jogador1(l1, l2, l3, l4, l5, l6, entrada1)
     veri1 = verificarX(l1, l2, l3, l4, l5, l6)
-    print(veri1)
-    if veri1 == "Vitória do jogador 1!":
-        break
-    else:
-        continue
     verificarX(l1, l2, l3, l4, l5, l6)
     imprime(l1, l2, l3, l4, l5, l6, linha)
+    if veri1 == "Vitória do jogador 1!":
+        print(veri1)
+        break
+    elif (l6[0:7].count('X') + l6[0:7].count('O')) == 7:
+        print("Empatou!")
+        break
 
     if escolha.lower() == "não":
         jogada = random.randint(0,6)
-        print(f"Jogador 2: {jogada} \n")
+        print(f"Computador: {jogada} \n")
         jogador2(l1, l2, l3, l4, l5, l6, jogada)
         imprime(l1, l2, l3, l4, l5, l6, linha)
     elif escolha.lower() == "sim":
@@ -607,8 +606,20 @@ while True:
         jogador2(l1, l2, l3, l4, l5, l6, jogada)
         imprime(l1, l2, l3, l4, l5, l6, linha)
 
-
-
+    veri2 = verificarO(l1, l2, l3, l4, l5, l6)
+    verificarO(l1, l2, l3, l4, l5, l6)
+    imprime(l1, l2, l3, l4, l5, l6, linha)
+    if veri2 == "Vitória do jogador 2!":
+        if escolha.lower() == "não":
+            print("Vitória do computador!")
+        elif escolha.lower() == "sim":
+            print("Vitória do jogador 2!")
+        break
+    elif (l6[0:7].count('X') + l6[0:7].count('O')) == 7:
+        print("Empatou!")
+        break
+    else:
+        continue
 
 
 

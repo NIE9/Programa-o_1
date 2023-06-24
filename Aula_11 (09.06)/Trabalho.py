@@ -31,8 +31,8 @@ escolha = str(input("Dois jogadore? (sim/não): "))
 imprime(l1, l2, l3, l4, l5, l6, linha)
 while True:
     if escolha.lower() == "não":
-        maquina = random.randint(0,6)
-        if maquina == 0:
+        jogada = random.randint(0,6)
+        if jogada == 0:
             if l1[0] != 'X' and l1[0] != 'O':
                 l1.pop(0)
                 l1.insert(0, 'O')
@@ -51,7 +51,7 @@ while True:
             elif l6[0] != 'X' and l6[0] != 'O':
                 l6.pop(0)
                 l6.insert(0, 'O')
-        elif maquina == 1:
+        elif jogada == 1:
             if l1[1] != 'X' and l1[1] != 'O':
                 l1.pop(1)
                 l1.insert(1, 'O')
@@ -70,7 +70,7 @@ while True:
             elif l6[1] != 'X' and l6[1] != 'O':
                 l6.pop(1)
                 l6.insert(1, 'O')
-        elif maquina == 2:
+        elif jogada == 2:
             if l1[2] != 'X' and l1[2] != 'O':
                 l1.pop(2)
                 l1.insert(2, 'O')
@@ -89,7 +89,7 @@ while True:
             elif l6[2] != 'X' and l6[2] != 'O':
                 l6.pop(2)
                 l6.insert(2, 'O')
-        elif maquina == 3:
+        elif jogada == 3:
             if l1[3] != 'X' and l1[3] != 'O':
                 l1.pop(3)
                 l1.insert(3, 'O')
@@ -108,7 +108,7 @@ while True:
             elif l6[3] != 'X' and l6[3] != 'O':
                 l6.pop(3)
                 l6.insert(3, 'O')
-        elif maquina == 4:
+        elif jogada == 4:
             if l1[4] != 'X' and l1[4] != 'O':
                 l1.pop(4)
                 l1.insert(4, 'O')
@@ -127,7 +127,7 @@ while True:
             elif l6[4] != 'X' and l6[4] != 'O':
                 l6.pop(4)
                 l6.insert(4, 'O')
-        elif maquina == 5:
+        elif jogada == 5:
             if l1[5] != 'X' and l1[5] != 'O':
                 l1.pop(5)
                 l1.insert(5, 'O')
@@ -146,7 +146,7 @@ while True:
             elif l6[5] != 'X' and l6[5] != 'O':
                 l6.pop(5)
                 l6.insert(5, 'O')
-        elif maquina == 6:
+        elif jogada == 6:
             if l1[6] != 'X' and l1[6] != 'O':
                 l1.pop(6)
                 l1.insert(6, 'O')

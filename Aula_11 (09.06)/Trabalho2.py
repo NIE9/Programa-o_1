@@ -17,7 +17,7 @@ def imprime(l1, l2, l3, l4, l5, l6, linha):
     print(l3)
     print(l2)
     print(l1)
-    print("================================== \n")
+    print("=================================== \n")
 
 def jogador1(l1, l2, l3, l4, l5, l6, entrada1):
     if entrada1 == 0:
@@ -153,6 +153,7 @@ def jogador1(l1, l2, l3, l4, l5, l6, entrada1):
         elif l6[6] != 'X' and l6[6] != 'O':
             l6.pop(6)
             l6.insert(6, 'X')
+
 def jogador2(l1, l2, l3, l4, l5, l6, jogada):
     if jogada == 0:
         if l1[0] != 'X' and l1[0] != 'O':
@@ -290,6 +291,148 @@ def jogador2(l1, l2, l3, l4, l5, l6, jogada):
 
 def verificarX(l1, l2, l3, l4, l5, l6):
     vitoriaX = "Vitória do jogador 1!"
+    if l1[0:4].count("X") == 4:
+        return vitoriaX
+    elif l1[1:5].count("X") == 4:
+        return vitoriaX
+    elif l1[2:6].count("X") == 4:
+        return vitoriaX
+    elif l1[3:7].count("X") == 4:
+        return vitoriaX
+    elif l2[0:4].count("X") == 4:
+        return vitoriaX
+    elif l2[1:5].count("X") == 4:
+        return vitoriaX
+    elif l2[2:6].count("X") == 4:
+        return vitoriaX
+    elif l2[3:7].count("X") == 4:
+        return vitoriaX
+    elif l3[0:4].count("X") == 4:
+        return vitoriaX
+    elif l3[1:5].count("X") == 4:
+        return vitoriaX
+    elif l3[2:6].count("X") == 4:
+        return vitoriaX
+    elif l3[3:7].count("X") == 4:
+        return vitoriaX
+    elif l4[0:4].count("X") == 4:
+        return vitoriaX
+    elif l4[1:5].count("X") == 4:
+        return vitoriaX
+    elif l4[2:6].count("X") == 4:
+        return vitoriaX
+    elif l4[3:7].count("X") == 4:
+        return vitoriaX
+    elif l5[0:4].count("X") == 4:
+        return vitoriaX
+    elif l5[1:5].count("X") == 4:
+        return vitoriaX
+    elif l5[2:6].count("X") == 4:
+        return vitoriaX
+    elif l5[3:7].count("X") == 4:
+        return vitoriaX
+    elif l6[0:4].count("X") == 4:
+        return vitoriaX
+    elif l6[1:5].count("X") == 4:
+        return vitoriaX
+    elif l6[2:6].count("X") == 4:
+        return vitoriaX
+    elif l6[3:7].count("X") == 4:
+        return vitoriaX
+    elif l1[0] == 'X' and l2[0] == 'X' and l3[0] == 'X' and l4[0] == 'X':
+        return vitoriaX
+    elif l2[0] == 'X' and l3[0] == 'X' and l4[0] == 'X' and l5[0] == 'X':
+        return vitoriaX
+    elif l3[0] == 'X' and l4[0] == 'X' and l5[0] == 'X' and l6[0] == 'X':
+        return vitoriaX
+    elif l1[1] == 'X' and l2[1] == 'X' and l3[1] == 'X' and l4[1] == 'X':
+        return vitoriaX
+    elif l2[1] == 'X' and l3[1] == 'X' and l4[1] == 'X' and l5[1] == 'X':
+        return vitoriaX
+    elif l3[1] == 'X' and l4[1] == 'X' and l5[1] == 'X' and l6[1] == 'X':
+        return vitoriaX
+    elif l1[2] == 'X' and l2[2] == 'X' and l3[2] == 'X' and l4[2] == 'X':
+        return vitoriaX
+    elif l2[2] == 'X' and l3[2] == 'X' and l4[2] == 'X' and l5[2] == 'X':
+        return vitoriaX
+    elif l3[2] == 'X' and l4[2] == 'X' and l5[2] == 'X' and l6[2] == 'X':
+        return vitoriaX
+    elif l1[3] == 'X' and l2[3] == 'X' and l3[3] == 'X' and l4[3] == 'X':
+        return vitoriaX
+    elif l2[3] == 'X' and l3[3] == 'X' and l4[3] == 'X' and l5[3] == 'X':
+        return vitoriaX
+    elif l3[3] == 'X' and l4[3] == 'X' and l5[3] == 'X' and l6[3] == 'X':
+        return vitoriaX
+    elif l1[4] == 'X' and l2[4] == 'X' and l3[4] == 'X' and l4[4] == 'X':
+        return vitoriaX
+    elif l2[4] == 'X' and l3[4] == 'X' and l4[4] == 'X' and l5[4] == 'X':
+        return vitoriaX
+    elif l3[4] == 'X' and l4[4] == 'X' and l5[4] == 'X' and l6[4] == 'X':
+        return vitoriaX
+    elif l1[5] == 'X' and l2[5] == 'X' and l3[5] == 'X' and l4[5] == 'X':
+        return vitoriaX
+    elif l2[5] == 'X' and l3[5] == 'X' and l4[5] == 'X' and l5[5] == 'X':
+        return vitoriaX
+    elif l3[5] == 'X' and l4[5] == 'X' and l5[5] == 'X' and l6[5] == 'X':
+        return vitoriaX
+    elif l1[6] == 'X' and l2[6] == 'X' and l3[6] == 'X' and l4[6] == 'X':
+        return vitoriaX
+    elif l2[6] == 'X' and l3[6] == 'X' and l4[6] == 'X' and l5[6] == 'X':
+        return vitoriaX
+    elif l3[6] == 'X' and l4[6] == 'X' and l5[6] == 'X' and l6[6] == 'X':
+        return vitoriaX
+
+    elif l1[0] == 'X' and l2[1] == 'X' and l3[2] == 'X' and l4[3] == 'X':
+        return vitoriaX
+    elif l1[1] == 'X' and l2[2] == 'X' and l3[3] == 'X' and l4[4] == 'X':
+        return vitoriaX
+    elif l1[2] == 'X' and l2[3] == 'X' and l3[4] == 'X' and l4[5] == 'X':
+        return vitoriaX
+    elif l1[3] == 'X' and l2[4] == 'X' and l3[5] == 'X' and l4[6] == 'X':
+        return vitoriaX
+    elif l2[0] == 'X' and l3[1] == 'X' and l4[2] == 'X' and l5[3] == 'X':
+        return vitoriaX
+    elif l2[1] == 'X' and l3[2] == 'X' and l4[3] == 'X' and l5[4] == 'X':
+        return vitoriaX
+    elif l2[2] == 'X' and l3[3] == 'X' and l4[4] == 'X' and l5[5] == 'X':
+        return vitoriaX
+    elif l2[3] == 'X' and l3[4] == 'X' and l4[5] == 'X' and l5[6] == 'X':
+        return vitoriaX
+    elif l3[0] == 'X' and l4[1] == 'X' and l5[2] == 'X' and l6[3] == 'X':
+        return vitoriaX
+    elif l3[1] == 'X' and l4[2] == 'X' and l5[3] == 'X' and l6[4] == 'X':
+        return vitoriaX
+    elif l3[2] == 'X' and l4[3] == 'X' and l5[4] == 'X' and l6[5] == 'X':
+        return vitoriaX
+    elif l3[3] == 'X' and l4[4] == 'X' and l5[5] == 'X' and l6[6] == 'X':
+        return vitoriaX
+    elif l6[0] == 'X' and l5[1] == 'X' and l4[2] == 'X' and l3[3] == 'X':
+        return vitoriaX
+    elif l6[1] == 'X' and l5[2] == 'X' and l4[3] == 'X' and l3[4] == 'X':
+        return vitoriaX
+    elif l6[2] == 'X' and l5[3] == 'X' and l4[4] == 'X' and l3[5] == 'X':
+        return vitoriaX
+    elif l6[3] == 'X' and l5[4] == 'X' and l4[5] == 'X' and l3[6] == 'X':
+        return vitoriaX
+    elif l5[0] == 'X' and l4[1] == 'X' and l3[2] == 'X' and l2[3] == 'X':
+        return vitoriaX
+    elif l5[1] == 'X' and l4[2] == 'X' and l3[3] == 'X' and l2[4] == 'X':
+        return vitoriaX
+    elif l5[2] == 'X' and l4[3] == 'X' and l3[4] == 'X' and l2[5] == 'X':
+        return vitoriaX
+    elif l5[3] == 'X' and l4[4] == 'X' and l3[5] == 'X' and l2[6] == 'X':
+        return vitoriaX
+    elif l4[0] == 'X' and l3[1] == 'X' and l2[2] == 'X' and l1[3] == 'X':
+        return vitoriaX
+    elif l4[1] == 'X' and l3[2] == 'X' and l2[3] == 'X' and l1[4] == 'X':
+        return vitoriaX
+    elif l4[2] == 'X' and l3[3] == 'X' and l2[4] == 'X' and l1[5] == 'X':
+        return vitoriaX
+    elif l4[3] == 'X' and l3[4] == 'X' and l2[5] == 'X' and l1[6] == 'X':
+        return vitoriaX
+
+def verificarO(l1, l2, l3, l4, l5, l6):
+    "Kleber. Alterar todos os 'vitoriaX' por 'vitoriaO' e trocar o 'X' por 'O' em o codigo"
     vitoriaO = "Vitória do jogador 2!"
     if l1[0:4].count("X") == 4:
         return vitoriaX
@@ -430,6 +573,7 @@ def verificarX(l1, l2, l3, l4, l5, l6):
         return vitoriaX
     elif l4[3] == 'X' and l3[4] == 'X' and l2[5] == 'X' and l1[6] == 'X':
         return vitoriaX
+
 
 linha = ['0', '1', '2', '3', '4', '5', '6']
 l6 = ['_', '_', '_', '_', '_', '_', '_']
